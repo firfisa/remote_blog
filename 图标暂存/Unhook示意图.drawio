@@ -1,9 +1,49 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="第 1 页" id="1MpdyhxRG4gPvSrxmSLK">
-    <mxGraphModel>
+    <mxGraphModel dx="1221" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2k4l55EQmsyeoBekwerg-1" value="NTDLL.dll（磁盘中）" style="shape=note;size=32;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="230" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="2k4l55EQmsyeoBekwerg-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-18" value="覆盖" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2k4l55EQmsyeoBekwerg-17">
+          <mxGeometry x="0.2972" y="-1" relative="1" as="geometry">
+            <mxPoint x="-18" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-2" value=".text（clean）" style="whiteSpace=wrap;html=1;align=center;fillColor=#CCFFCC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-5" value=".rdata" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="360" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-6" value=".pdata" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="400" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-7" value="..." style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="440" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-19" value="NTDLL.dll（内存中）" style="shape=note;size=32;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="230" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-20" value=".text（hooked）" style="whiteSpace=wrap;html=1;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="420" y="320" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-21" value=".rdata" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-22" value=".pdata" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="400" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2k4l55EQmsyeoBekwerg-23" value="..." style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="420" y="440" width="180" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
